@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "learning typescript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anismomin/learntypescript.git"
+  },
+  "author": "Anis Momin",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.7.8",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "gulp-webserver": "^0.9.1"
+  }
+}
