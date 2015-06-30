@@ -1,1 +1,3 @@
-// Just Learning Typescript
+# Just Learning Typescript
+
+learn Typescript.
