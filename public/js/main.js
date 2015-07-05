@@ -37,7 +37,7 @@ doSomeThing({
     sayhello: function () {
     }
 });
-console.log('Interface is a contect whatever function implements that inertace must have those properties and mthods');
+console.log('Interface is a contract whatever function implements that inertace must have those properties and mthods');
 var pearson = {
     firstname: 'anis',
     lastname: 'momin',

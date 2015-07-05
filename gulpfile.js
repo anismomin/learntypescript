@@ -4,7 +4,7 @@ var util = require('gulp-util');
 var webserver = require('gulp-webserver');
 
 gulp.task('transpile', function(){
-	gulp.src('*.ts')
+	gulp.src('ts/*.ts')
 	.pipe(ts(
 		{
 			target: 'ES5',
@@ -16,7 +16,7 @@ gulp.task('transpile', function(){
 });
 
 gulp.task('watch' , function(){
-	gulp.watch('*.ts', ['transpile']);
+	gulp.watch('ts/*.ts', ['transpile']);
 });
 
 gulp.task('webServer' , function(){
